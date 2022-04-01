@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #424242 url(./assets/imgs/body_bg.png);
+  font-family: 'Pixelade';
+  font-size: 28px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.centerContainer{
+  background: #fff url(./assets/imgs/container_bg.png);
 }
+
+.title-shadow{
+  text-shadow: 2px 2px 0px #60A7DC;
+}
+
+@font-face {
+  font-family: 'Pixellari';
+  src: url('./assets/fonts/Pixellari.woff2') format('woff2'),
+      url('./assets/fonts/Pixellari.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pokemon Classic';
+  src: url('./assets/fonts/Pokemon-Classic.woff2') format('woff2'),
+      url('./assets/fonts/Pokemon-Classic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pixelade';
+  src: url('./assets/fonts/Pixelade.woff2') format('woff2'),
+      url('./assets/fonts/Pixelade.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+

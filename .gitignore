@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+/.vscode
+/buid_assets
 
 # misc
 .DS_Store
