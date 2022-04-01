@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15515340.css",
+    "main.js": "/static/js/main.e9a36022.js",
+    "static/media/Pokemon-Classic.woff": "/static/media/Pokemon-Classic.ad2d877f4948efdd45d3.woff",
+    "static/media/Pokemon-Classic.woff2": "/static/media/Pokemon-Classic.79b2ec90522f86b22aa9.woff2",
+    "static/media/Pixellari.woff": "/static/media/Pixellari.cb4722ff537e93eb42f1.woff",
+    "static/media/Pixelade.woff": "/static/media/Pixelade.24b9d2d896e3b5d90d46.woff",
+    "static/media/Pixellari.woff2": "/static/media/Pixellari.f0a6cbea761099d443ba.woff2",
+    "static/media/Pixelade.woff2": "/static/media/Pixelade.176d93e907228844127d.woff2",
+    "static/media/pokedex.svg": "/static/media/pokedex.b447c7e4396aa833fdeac005566fbf37.svg",
+    "static/media/logo.svg": "/static/media/logo.ebe0a7a1e11179790a9a4f3ab11c79c9.svg",
+    "static/media/pokeball_fill.svg": "/static/media/pokeball_fill.88e22c7995066568a1834c3afeb4e720.svg",
+    "index.html": "/index.html",
+    "static/media/pokeball_empty.svg": "/static/media/pokeball_empty.21afc515e7293f325f0c0efc827a95a3.svg",
+    "main.15515340.css.map": "/static/css/main.15515340.css.map",
+    "main.e9a36022.js.map": "/static/js/main.e9a36022.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15515340.css",
+    "static/js/main.e9a36022.js"
+  ]
+}
