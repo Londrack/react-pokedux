@@ -28,6 +28,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    
+    "prefinaldeploy": "rd /s docs",
+    "finaldeploy": "npm run deploy",
+    "postfinaldeploy": "npm run gitdeploy 'solucionando deploy'",
+
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
     "postdeploy": "ren build docs",
