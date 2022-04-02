@@ -14,10 +14,10 @@ function App() {
         <div className="w-11/12 max-w-5xl bg-white min-h-screen mx-auto px-6 py-5">
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/favorites" element={<Favorites />} />
-            <Route path="/pokemon/:id" element={<PokemonDetail />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/react-pokedux/" element={<Home />} />
+            <Route path="/react-pokedux/favorites" element={<Favorites />} />
+            <Route path="/react-pokedux/pokemon/:id" element={<PokemonDetail />} />
+            <Route path="react-pokedux/*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

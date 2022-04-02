@@ -31,7 +31,7 @@
 
     "prefinaldeploy": "rd /s docs",
     "finaldeploy": "npm run deploy",
-    
+
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
 
