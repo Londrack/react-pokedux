@@ -15,10 +15,10 @@ function App() {
         <div className="w-11/12 max-w-5xl bg-white min-h-screen mx-auto px-6 py-5">
           <Header />
           <Routes>
-            <Route path={`${NAME_SITE}`} element={<Home />} />
-            <Route path={`${NAME_SITE}favorites`} element={<Favorites />} />
-            <Route path={`${NAME_SITE}pokemon/:id`} element={<PokemonDetail />} />
-            <Route path={`${NAME_SITE}*`} element={<NotFound />} />
+            <Route path={`${NAME_SITE}/`} element={<Home />} />
+            <Route path={`${NAME_SITE}/favorites`} element={<Favorites />} />
+            <Route path={`${NAME_SITE}/pokemon/:id`} element={<PokemonDetail />} />
+            <Route path={`${NAME_SITE}/*`} element={<NotFound />} />
           </Routes>
         </div>
       </div>

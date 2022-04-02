@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const NAME_SITE = '/react-pokedux/';
+export const NAME_SITE = '/react-pokedux';
 export const URL_api = 'https://pokeapi.co/api/v2';
 export const URL_imgs = 'https://assets.pokemon.com/assets/cms2/img/pokedex/';
 // export const URL_detail = 'https://pokeapi.glitch.me/v1';
