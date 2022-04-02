@@ -14,7 +14,7 @@ export function PokemonCard({pokemon}) {
         return (
             <PokeCardBox key={pokemonId}>
                 <PokeFav fav={pokemon.favorite} pokemonId={pokemon.id}/>
-                <Link to={`${NAME_SITE}/pokemon/${pokemonId}`} className=" cursor-pointer">
+                <Link to={`/pokemon/${pokemonId}`} className=" cursor-pointer">
                     <BigImg
                         className="mx-auto hover:scale-110 transition-transform"
                         id={pokemon.id} alt={pokemon.name}

@@ -4,7 +4,7 @@ import { NAME_SITE } from "../../api/config";
 
 export function PokeduxLogo() {
     return (
-        <Link to={`${NAME_SITE}/`} className="flex items-center">
+        <Link to={`/`} className="flex items-center">
             <Logo alt="Pokedux" width={50} />
             <h1 className=" font-pixellari text-5xl pl-2
             text-poke-purple-200 title-shadow">Pokedux</h1>
