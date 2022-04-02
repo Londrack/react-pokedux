@@ -31,9 +31,9 @@
 
     "prefinaldeploy": "rd /s docs",
     "finaldeploy": "npm run deploy",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
+    "postdeploy": "ren build docs",
 
     "pregitdeploy": "git add .",
     "gitdeploy": "git commit -am",
