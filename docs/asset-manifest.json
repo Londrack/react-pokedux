@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-pokedux/static/css/main.fc94af29.css",
-    "main.js": "/react-pokedux/static/js/main.12337bdb.js",
+    "main.js": "/react-pokedux/static/js/main.16174f47.js",
     "static/media/Pokemon-Classic.woff": "/react-pokedux/static/media/Pokemon-Classic.ad2d877f4948efdd45d3.woff",
     "static/media/Pokemon-Classic.woff2": "/react-pokedux/static/media/Pokemon-Classic.79b2ec90522f86b22aa9.woff2",
     "static/media/Pixellari.woff": "/react-pokedux/static/media/Pixellari.cb4722ff537e93eb42f1.woff",
@@ -14,10 +14,10 @@
     "index.html": "/react-pokedux/index.html",
     "static/media/pokeball_empty.svg": "/react-pokedux/static/media/pokeball_empty.21afc515e7293f325f0c0efc827a95a3.svg",
     "main.fc94af29.css.map": "/react-pokedux/static/css/main.fc94af29.css.map",
-    "main.12337bdb.js.map": "/react-pokedux/static/js/main.12337bdb.js.map"
+    "main.16174f47.js.map": "/react-pokedux/static/js/main.16174f47.js.map"
   },
   "entrypoints": [
     "static/css/main.fc94af29.css",
-    "static/js/main.12337bdb.js"
+    "static/js/main.16174f47.js"
   ]
 }
