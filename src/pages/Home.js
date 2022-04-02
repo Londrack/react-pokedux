@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getPokemonsList } from "../api/getPokemonsList";
 import { PokemonList } from "../components/Home/PokemonList";
-import { setPokemons, setError, setNextPage, setLoading, setFavoriteStorage, getPokemonDetail } from '../actions';
+import { setPokemons, setError, setNextPage, setLoading, setFavoriteStorage } from '../actions';
 import { URL_api } from "../api/config";
 import axios from "axios";
 import { LoaderList } from "../components/Loaders/LoaderList";
@@ -16,6 +16,7 @@ export function Home() {
     const list = useSelector(state => state.list) || [];
     const nextPage = useSelector(state => state.nextPage);
     const loading = useSelector(state => state.loading);
+    let pokeData;
 
     useEffect(() => {
       if(list.length === 0) onGetList(initialUrl, true);
@@ -35,7 +36,7 @@ export function Home() {
           return Promise.all(pokemonList.map(pokemon => axios.get(pokemon.url)))
         })
         .then(pokemonResponse => {
-          const pokeData = pokemonResponse.map(response => response.data);
+          pokeData = pokemonResponse.map(response => response.data);
           const allPokeData = !firstLoad ? list.concat(...pokeData) : pokeData;
           dispatch(setPokemons(allPokeData));
           dispatch(setLoading(false));
